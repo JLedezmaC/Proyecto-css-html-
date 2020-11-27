@@ -437,31 +437,24 @@ template {
 .first-column {
   float: left; }
 
-.first-column-v2 {
-  float: left;
-  width: 700px; }
-
 .column-right {
   width: 700px;
   float: right; }
 
-.alive {
+.bordes {
   border-top: 3px solid gray;
+  border-bottom: 3px solid gray; }
+
+.bordes2 {
   border-bottom: 3px solid gray; }
 
 .alive h2 {
   font-size: 30px; }
 
-.enjoy {
-  border-bottom: 3px solid gray; }
-
 .enjoy h2 {
   font-size: 30px; }
 
 .loves {
-  margin-top: 224px;
-  border-top: 3px solid gray;
-  border-bottom: 3px solid gray;
   padding-left: 115px; }
 
 .loves2 h5 {
@@ -472,7 +465,6 @@ template {
 
 .health {
   margin-top: 30px;
-  border-bottom: 3px solid gray;
   padding-bottom: 13px;
   padding-left: 115px; }
 
