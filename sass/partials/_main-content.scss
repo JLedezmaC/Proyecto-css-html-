@@ -1,0 +1,167 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.first-content{
+    text-align: center;
+}
+
+.firsth1{
+    font-family:'Raleway', sans-serif;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.secondh1{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+}
+
+.first-paragraph p{
+    font-size: 20px;
+    font-weight: bold
+}
+
+.border1{
+    border: 1px solid black;
+    width: 40px;
+    margin: 0 auto;
+    margin-top:35px ;
+    margin-bottom: 35px ;
+}
+
+.first-paragraph2{
+    font-size: 20px;
+}
+
+.first-column{
+    float: left;
+}
+
+.first-column-v2{
+    float: left;
+    width: 700px;
+}
+
+.column-right{
+    width: 700px;
+    float: right;
+}
+
+.alive{
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+.alive h2{
+    font-size: 30px ;
+}
+.enjoy{
+    border-bottom: 3px solid gray;
+}
+
+.enjoy h2{
+    font-size: 30px ;
+}
+
+.loves{
+    margin-top: 223px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    padding-left: 115px;
+}
+
+.loves2 h5{
+    margin: 12px;
+}
+
+.loves h2{
+    font-size: 30px ;
+}
+.health{
+    margin-top: 29px;
+    border-bottom: 3px solid gray;
+    padding-bottom: 13px;
+    padding-left: 115px;
+}
+.health h2{
+    font-size: 30px ;
+}
+.left-paragraph{
+    background-color: #ffeae2;
+    width: 800px;
+}
+
+.p1{
+    padding-left: 150px;
+    padding-top: 110px;
+    line-height: 45px;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.p2{
+    padding-left: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    font-weight: lighter;
+    padding-top: 78px;
+}
+.puntos2{
+    color: #e2d1c8 ;
+    font-size: 59px;
+    padding-left: 150px;
+    margin: 0;
+    padding-bottom: 95px;
+}
+
+.span2{
+    color: black;
+}
+
+.reasons{
+    font-size: 30px;
+}
+
+.border2{
+    border: 1px solid black;
+    width: 40px;
+    margin-top:35px ;
+    margin-bottom: 96px;
+    padding-right: 40px;
+}
+
+.first-button{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.first-button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border: 3px solid black;
+    padding: 10px
+}
+
+.scnd-paragraph{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 200px;
+}
+
+.scnd-paragraph-mini{
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
