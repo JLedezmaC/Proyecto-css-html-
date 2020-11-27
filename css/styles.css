@@ -459,19 +459,19 @@ template {
   font-size: 30px; }
 
 .loves {
-  margin-top: 223px;
+  margin-top: 224px;
   border-top: 3px solid gray;
   border-bottom: 3px solid gray;
   padding-left: 115px; }
 
 .loves2 h5 {
-  margin: 12px; }
+  margin: 11px; }
 
 .loves h2 {
   font-size: 30px; }
 
 .health {
-  margin-top: 29px;
+  margin-top: 30px;
   border-bottom: 3px solid gray;
   padding-bottom: 13px;
   padding-left: 115px; }
@@ -505,7 +505,7 @@ template {
   font-size: 59px;
   padding-left: 150px;
   margin: 0;
-  padding-bottom: 95px; }
+  padding-bottom: 88px; }
 
 .span2 {
   color: black; }
