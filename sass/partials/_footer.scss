@@ -1,6 +1,17 @@
 .fourth-title{
     font-size: 30px;
     padding-left: 150px;
+    position: relative;
+}
+
+.fourth-title h2::after{
+    content: "";
+    position: absolute;
+    left: 149px;
+    top: 56px;
+    height: 4px;
+    width: 61px;
+    background-color: black;
 }
 
 .fourth-content{
@@ -14,4 +25,44 @@
     margin-bottom: 35px ;
     padding-right: 40px;
     margin-left:150px ;
+}
+
+.third-column{
+    width: 561px;
+}
+
+.fourth-column{
+    width: 741px;
+}
+
+.gentleman-paragraph p{
+    text-align: center;
+    padding-top: 198px;
+    margin: 0;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.ancord-izq{
+    padding-top: 168px;
+    margin-left: 35px;
+}
+.ancord-izq a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.ancord-dere a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.ancord-dere{
+    float: right;
+    padding-right: 30px;
 }

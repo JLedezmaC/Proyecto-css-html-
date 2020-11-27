@@ -422,24 +422,36 @@ template {
 
 .first-paragraph p {
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative; }
 
-.border1 {
-  border: 1px solid black;
-  width: 40px;
-  margin: 0 auto;
-  margin-top: 35px;
-  margin-bottom: 35px; }
+.first-paragraph p::after {
+  content: "";
+  position: absolute;
+  right: 765px;
+  top: 56px;
+  height: 4px;
+  width: 61px;
+  background-color: black; }
+
+.reasons {
+  font-size: 30px;
+  position: relative; }
+
+.reasons h2::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  height: 4px;
+  width: 61px;
+  background-color: black; }
 
 .first-paragraph2 {
   font-size: 20px; }
 
 .first-column {
   float: left; }
-
-.column-right {
-  width: 700px;
-  float: right; }
 
 .bordes {
   border-top: 3px solid gray;
@@ -448,14 +460,24 @@ template {
 .bordes2 {
   border-bottom: 3px solid gray; }
 
+.alive {
+  float: left;
+  width: 50%; }
+
 .alive h2 {
   font-size: 30px; }
+
+.enjoy {
+  float: left;
+  width: 50%; }
 
 .enjoy h2 {
   font-size: 30px; }
 
 .loves {
-  padding-left: 115px; }
+  padding-left: 70px;
+  float: left;
+  width: 45%; }
 
 .loves2 h5 {
   margin: 11px; }
@@ -464,9 +486,9 @@ template {
   font-size: 30px; }
 
 .health {
-  margin-top: 30px;
-  padding-bottom: 13px;
-  padding-left: 115px; }
+  float: left;
+  width: 45%;
+  padding-left: 70px; }
 
 .health h2 {
   font-size: 30px; }
@@ -497,13 +519,10 @@ template {
   font-size: 59px;
   padding-left: 150px;
   margin: 0;
-  padding-bottom: 88px; }
+  padding-bottom: 94px; }
 
 .span2 {
   color: black; }
-
-.reasons {
-  font-size: 30px; }
 
 .border2 {
   border: 1px solid black;
@@ -538,7 +557,17 @@ template {
 
 .fourth-title {
   font-size: 30px;
-  padding-left: 150px; }
+  padding-left: 150px;
+  position: relative; }
+
+.fourth-title h2::after {
+  content: "";
+  position: absolute;
+  left: 149px;
+  top: 56px;
+  height: 4px;
+  width: 61px;
+  background-color: black; }
 
 .fourth-content {
   background-color: #f3f4f5; }
@@ -550,3 +579,37 @@ template {
   margin-bottom: 35px;
   padding-right: 40px;
   margin-left: 150px; }
+
+.third-column {
+  width: 561px; }
+
+.fourth-column {
+  width: 741px; }
+
+.gentleman-paragraph p {
+  text-align: center;
+  padding-top: 198px;
+  margin: 0;
+  font-size: 80px;
+  color: white;
+  font-weight: bold; }
+
+.ancord-izq {
+  padding-top: 168px;
+  margin-left: 35px; }
+
+.ancord-izq a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  float: left; }
+
+.ancord-dere a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  float: left; }
+
+.ancord-dere {
+  float: right;
+  padding-right: 30px; }
