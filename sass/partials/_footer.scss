@@ -42,11 +42,14 @@
     font-size: 80px;
     color: white;
     font-weight: bold;
+    padding-bottom: 195px;
 }
 
 .ancord-izq{
-    padding-top: 168px;
     margin-left: 35px;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
 }
 .ancord-izq a{
     text-decoration: none;
@@ -65,4 +68,10 @@
 .ancord-dere{
     float: right;
     padding-right: 30px;
+    position: absolute;
+    bottom: 33px;
+    right: 0;
+}
+.ancord-dere img{
+    margin-left: 15px;
 }

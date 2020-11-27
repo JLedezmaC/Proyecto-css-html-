@@ -9,6 +9,7 @@
 .background-gentleman{
     background-image: url("../images/4.jpg");
     @include Background;
+    position: relative;
 }
 .background-mountain-men{
     background-image: url("../images/5.jpg");
