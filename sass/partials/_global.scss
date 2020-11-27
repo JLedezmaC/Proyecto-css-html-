@@ -18,8 +18,12 @@
 .background-coffe{
     background-image: url("../images/6.jpg");
     @include Background;
+    padding-right: 330px;
+    padding-bottom: 342px;
 }
 .background-sunglases{
     background-image: url("../images/7.jpg");
     @include Background;
+    padding-right: 330px;
+    padding-bottom: 342px;
 }
