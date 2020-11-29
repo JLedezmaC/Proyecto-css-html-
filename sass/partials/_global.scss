@@ -1,29 +1,22 @@
-.first-background-img{
-    background-image: url("../images/1.jpg");
-    @include Background;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
 }
-.scnd-background-img{
-    background-image: url("../images/3.jpg");
-    @include Background;
+.wrapper-grande{
+    max-width: 1600px;
+    margin: 0 auto;
 }
-.background-gentleman{
-    background-image: url("../images/4.jpg");
-    @include Background;
-    position: relative;
+.wrapper-peque{
+    max-width: 1400px;
+    margin: 0 auto;
 }
-.background-mountain-men{
-    background-image: url("../images/5.jpg");
-    @include Background;
+.bear-background{
+    background-image: url(../images/1.jpg);
+    @include Background
 }
-.background-coffe{
-    background-image: url("../images/6.jpg");
-    @include Background;
-    padding-right: 330px;
-    padding-bottom: 342px;
-}
-.background-sunglases{
-    background-image: url("../images/7.jpg");
-    @include Background;
-    padding-right: 330px;
-    padding-bottom: 342px;
+
+.background-hands{
+    background-image: url(../images/3.jpg);
+    @include Background
 }
