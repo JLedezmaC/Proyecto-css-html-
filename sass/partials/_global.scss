@@ -13,10 +13,30 @@
 }
 .bear-background{
     background-image: url(../images/1.jpg);
-    @include Background
+    @include Background;
 }
 
 .background-hands{
     background-image: url(../images/3.jpg);
-    @include Background
+    @include Background;
+}
+
+.background-gentleman{
+    background-image: url(../images/4.jpg);
+    @include Background;
+}
+
+.mountain-men{
+    background-image: url(../images/5.jpg);
+    @include Background;
+}
+
+.coffe{
+    background-image: url(../images/6.jpg);
+    @include Background;
+}
+
+.golden{
+    background-image: url(../images/7.jpg);
+    @include Background;
 }

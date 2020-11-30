@@ -54,10 +54,6 @@
     font-size: 30px;
 }
 
-.wrapper-peque p{
-    font-size: 20px;
-}
-
 .first-p{
     margin-bottom: 40px;
 }
@@ -68,10 +64,18 @@
     border-right: 3px solid gray;
 }
 
+.parrafo-1 p{
+    font-size: 20px;
+}
+
 .parrafo-2{
     padding-top: 4px;
     border-bottom: 3px solid gray;
     border-right: 3px solid gray;
+}
+
+.parrafo-2 p{
+    font-size: 20px;
 }
 
 .parrafo-3{
@@ -81,14 +85,19 @@
     padding-left: 121px;
 }
 
+.parrafo-3 p{
+    margin: 0;
+    font-size: 20px;
+}
+
 .parrafo-4{
     padding-left: 121px;
     border-bottom: 3px solid gray;
     padding-bottom: 26px;
 }
 
-.parrafo-3 p{
-    margin: 0;
+.parrafo-4 p{
+    font-size: 20px;
 }
 
 .happy::after{
