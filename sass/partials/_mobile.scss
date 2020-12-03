@@ -1,1 +1,153 @@
-@media(max-width:767px){}
+@media(max-width:767px){
+    body{
+        background-color: cornflowerblue;
+    }
+
+    .content-2-box{
+        width: 100%;
+        float: none;
+    }
+
+    .p-1 {
+        margin-top: 3.06%;
+        margin-left: 22.31%;
+        font-size: 30px;
+        padding-top: 93px;
+    }
+    .p-2 {
+        margin-left: 34.31%;
+    }
+
+    .puntos2 {
+        margin-left: 45.75%;
+        margin-bottom: 0;
+    }
+
+    .content-2-img img {
+        width: 100%;
+    }
+
+    .column-1{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .column-2{
+        float: none;
+        width: 100%;
+    }
+
+    .parrafo-1{
+        text-align: center;
+        border: none;
+    }
+
+    .parrafo-2{
+        text-align: center;
+        border: none;
+    }
+
+    .parrafo-3{
+        text-align: center;
+        padding-left: 0;
+        border: none;
+    }
+    .parrafo-3 p {
+        margin-top: 27px;
+    }
+    .parrafo-4{
+        text-align: center;
+        padding-left: 0;
+        border: none;
+    }
+    .happy::after {
+        left: 322px
+    }
+
+    .title-footer h2::after {
+        left: 290px;
+    }
+
+    .second-button {
+        padding-left: 35.14%;
+    }
+
+    .hands-p1 {
+        font-size: 1.75rem;
+    }
+
+    .background-gentleman{
+        float: none;
+        width: 100%;
+    }
+
+    .tres-images {
+        float: none;
+    }
+
+    .buy {
+        padding-left: 18.71%;
+    }
+
+    .ancords-footer {
+        padding-bottom: 39%;
+    }
+
+    .background-gentleman p {
+        padding-top: 53.42%;
+    }
+
+    .ancords-footer {
+        padding-bottom: 19%;
+    }
+
+    .tres-images {
+        float: none;
+        width: 100%;
+    }
+    .golden-content {
+        padding-bottom: 44.28%;
+    }
+
+    .coffe p {
+        padding-bottom: 160px;
+    }
+    .button-4 {
+        padding-bottom: 6.75%;
+        padding-left: 207px;
+    }
+    .coffe{
+        margin-bottom: 50px;
+    }
+
+    .lista1{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .lista2{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .lista3{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .lista4{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-button {
+        margin-top: 7%;
+        padding-bottom: 50px;
+    }
+
+    .last-parrafo {
+        font-size: 12px;
+    }
+    
+}

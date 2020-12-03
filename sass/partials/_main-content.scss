@@ -1,40 +1,38 @@
 .content-2{
-    padding-bottom: 95px;
-    margin: 0 auto;
-    margin-top: 56px;
+    padding-bottom: 5.93%;
+    margin: 0 auto;                         /*20px 1.25rem  144px 5.188rem*/  
+    margin-top: 3.5%;                      /*rem pixeels actuales por pixeles padre */
 }
 .content-2-box{
     background-color: #ffeae2;
     float: left;
-    width: 800px;
+    width: 50%;
     height: 649px;
 }
 .p-1{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
-    width: 557px;
-    margin-left: 117px;
-    margin-top: 113px;
+    width: 66.81%;
+    margin-left: 7.31%;
+    margin-top: 19.06%;
 }
 .p-2{
     font-weight: 100;
     margin: 0px;
-    font-size: 36px;
-    margin-left: 115px;
-    padding-top: 6px;
-    margin-bottom: 20px;
+    font-size: 2.25rem;
+    margin-left: 7.18%;
+    padding-top: 0.375%;
+    margin-bottom: 1.25%;
 }
 .content-2-img{
-    background-image: url("../images/2.jpg");
-    background-size: cover;;
-    float: left;
-    width: 797px;
+    width: 100%;
+    max-width: 100%;
     height: 650px;
 }
 
 .puntos2{
-    margin-left: 108px;
-    font-size: 72px;
+    margin-left: 6.75%;
+    font-size: 4.5rem;
     color: #d6ae9f;
     margin-top: 0;
 }
@@ -47,15 +45,15 @@
     position: relative;
 }
 .wrapper-peque h2{
-    font-size: 60px;  
+    font-size: 3.75rem;  
 }
 
 .wrapper-peque h3{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .first-p{
-    margin-bottom: 40px;
+    margin-bottom: 2.85rem;
 }
 
 .parrafo-1{
@@ -65,39 +63,39 @@
 }
 
 .parrafo-1 p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .parrafo-2{
-    padding-top: 4px;
+    padding-top: 0.230rem;
     border-bottom: 3px solid gray;
     border-right: 3px solid gray;
 }
 
 .parrafo-2 p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .parrafo-3{
-    padding-bottom: 18px;
+    padding-bottom: 2.6%;
     border-top: 3px solid gray;
     border-bottom: 3px solid gray;
-    padding-left: 121px;
+    padding-left: 17.642%;
 }
 
 .parrafo-3 p{
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .parrafo-4{
-    padding-left: 121px;
+    padding-left: 17.642%;
     border-bottom: 3px solid gray;
-    padding-bottom: 26px;
+    padding-bottom: 3.85%;
 }
 
 .parrafo-4 p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .happy::after{
@@ -106,26 +104,26 @@
     left: 0;
     top: 72px;
     height: 2px;
-    width: 63px;
+    width: 4.5rem;
     background-color: black;
 } 
 
 .column-1{
     float: left;
-    padding-left: 73px;
-    width: 645px;
-    margin-bottom: 47px;
+    padding-left: 5.21%;
+    width: 46.07%;
+    margin-bottom: 3.35%;
 }
 
 .column-2{
     float: right;
-    width: 682px;
-    margin-bottom: 61px;
+    width: 48.71%;
+    margin-bottom: 4.35%;
 }
 
 .second-button {
     display: inline-block;
-    padding-left: 618px;
+    padding-left: 44.14%;
 }
 
 .second-button a{
@@ -134,7 +132,7 @@
     padding: 9px 31px 9px 31px;;
     border: 3px solid black;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 .content-hands{
@@ -142,19 +140,19 @@
 }
 
 .hands-p1{
-    font-size: 60px;
+    font-size: 3.75rem;
     color: white;
     font-weight: bolder;
-    padding-top: 200px;
+    padding-top: 12.5%;
 }
 
 .hands-p2{
     color: white;
-    font-size: 20px;
-    padding-bottom: 166px;
+    font-size: 1.25rem;
+    padding-bottom: 10.375%;
 }
 
 .hands-p2 a{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }

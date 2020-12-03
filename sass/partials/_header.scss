@@ -5,15 +5,15 @@ font-family:'Raleway', sans-serif;*/
     position: relative;
 }
 .header-quotes{
-    padding-top: 68px;
-    margin-left: 200px;
+    padding-top: 4%;           /*pixeles actuales dividido por el div padre entr 100*/
+    margin-left: 12.5%;         /*20px 1.25rem  144px 5.188rem*/    /*rem pixeels actuales por pixeles padre */
 }
 .header-quotes a{
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 20px;
-    font-size: 30px;
+    padding: 1.25%;
+    font-size: 1.875rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,38 +27,38 @@ font-family:'Raleway', sans-serif;*/
     color: white;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding-top: 0.625%;
+    padding-bottom: 0.625%;
 }
 
 .header-title{
     color: white;
     font-family:'Raleway', sans-serif;
-    padding-left: 656px;
-    padding-top: 244px;
+    padding-left: 41%;
+    padding-top: 15.25%;
     text-align: center;
-    padding-right: 133px;
+    padding-right: 8.31%;
 }
 
 .header-title h1{
-    font-size: 184px;
+    font-size: 11.5rem;
     font-weight: lighter;
     margin: 0;
 }
 .header-title p{
     font-weight: 900;
-    font-size: 83px;
+    font-size: 5.1875rem;
     margin: 0;
 }
 
 .puntos{
     color: black;
-    font-size: 144px;
+    font-size: 9rem;
     text-align: center;
-    margin-top: 90px;
-    padding-bottom: 93px;
-    margin-bottom: 71px;
+    margin-top: 5.625%;
+    padding-bottom: 5.812%;
+    margin-bottom: 4.437%;
 }
 
 .puntos span{
@@ -72,40 +72,40 @@ font-family:'Raleway', sans-serif;*/
 
 .first-h2{
     font-family:'Raleway', sans-serif;
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 3.75rem;
+    margin-bottom: 0.714%;
 }
 
 .second-h2{
     font-weight: bold;
     color: black;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 1.785%;
 }
 
 .first-paragraph{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .first-paragraph p{
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .second-paragraph{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .third-paragraph{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .first-paragraph p::after {
     content: "";
     position: absolute;
-    left:  679px;
+    left: 668px;
     top: 242px;
-    height: 2px;
-    width: 63px;
+    height: 0.142%;
+    width: 4.5%;
     background-color: black;
 }

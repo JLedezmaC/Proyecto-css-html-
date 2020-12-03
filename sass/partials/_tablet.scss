@@ -1,1 +1,137 @@
-@media(max-width: 1023px){}
+@media(max-width: 1023px){
+    .header-title{
+        padding-left: 118px;
+    }
+
+    .header-title h1 {
+        font-size: 112px;
+    }
+
+    .header-quotes {
+        padding-top: 93px;
+        margin-left: 26px;
+    }
+
+    .header-menu {
+        position: absolute;
+        top: 105px;
+        right: 26px;
+    }
+
+    .first-paragraph p::after {
+        content: "";
+        position: absolute;
+        left: 487px;
+        top: 242px;
+    }
+
+    .p-1{
+        margin-top: 23.06%;
+        margin-left: 17.31%;
+        font-size: 23px;
+    }
+
+    .p-2{
+    margin-left: 17.31%;
+    }
+
+    .puntos2{
+        margin-left: 17.75%;
+        margin-bottom: 0;
+    }
+
+    .content-2{
+        padding-bottom: 0;
+    }
+    .content-2-img {
+        float: left;
+        display: contents;
+        width: 50%;
+    }
+
+    .content-2-box {
+        background-color: #ffeae2;
+        float: left;
+        width: 50%;
+        height: 488px;
+    }
+    .wrapper-peque h2 {
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .happy::after {
+        position: absolute;
+        left: 471px;
+        top: 92px;
+    }
+
+    .parrafo-1 p {
+        margin-bottom: 29px;
+    }
+
+    .parrafo-2 p {
+        margin-bottom: 13px
+    }
+
+    .second-button{
+        padding-left: 40.14%;
+    }
+
+    .title-footer h2::after {
+        left: 461px;
+        top: 88px;
+    }
+
+    .coffe p {
+        padding-bottom: 141px
+    }
+
+    .coffe {
+        margin-bottom: 97px;
+    }
+
+    .button-4 {
+        padding-bottom: 6.75%;
+        padding-left: 360px;
+    }
+    
+    .background-gentleman p {
+        font-size: 4em;
+    }
+
+    .tres-images {
+        margin-bottom: 4.071%;
+    }
+
+    .share {
+        padding-left: 46%;
+    }
+
+    .lista2 {
+        margin-left: 12.28%;
+    }
+
+    .lista3 {
+        margin-left: 7.28%;
+    }
+    
+    .lista4 {
+        margin-left: 7.28%;
+    }
+
+    .content-2-img{
+        float: left;
+    }
+    .content-2-img img{
+        width: 490px;
+        height: 489px;
+    }
+
+    .parrafo-3 {
+        padding-bottom: 12px;
+    }
+
+    .parrafo-4 {
+        padding-bottom: 20.2px;
+    }
+}
