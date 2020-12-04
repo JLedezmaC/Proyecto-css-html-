@@ -353,6 +353,9 @@ body {
 /*font-family: 'Montserrat', sans-serif;
 font-family:'Raleway', sans-serif;
 font-family:'Raleway', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;
+font-family:'Raleway', sans-serif;
+font-family:'Raleway', sans-serif;*/
 .bear-background {
   position: relative; }
 
@@ -388,10 +391,11 @@ font-family:'Raleway', sans-serif;*/
 .header-title {
   color: white;
   font-family: 'Raleway', sans-serif;
-  padding-left: 41%;
   padding-top: 15.25%;
   text-align: center;
-  padding-right: 8.31%; }
+  padding-right: 8.31%;
+  max-width: 735px;
+  margin-left: auto; }
 
 .header-title h1 {
   font-size: 11.5rem;
@@ -462,34 +466,36 @@ font-family:'Raleway', sans-serif;*/
 .content-2-box {
   background-color: #ffeae2;
   float: left;
-  width: 50%;
-  height: 649px; }
+  width: 50%; }
 
 .p-1 {
-  font-size: 2.25rem;
+  font-size: 1.625rem;
   font-weight: bold;
   width: 66.81%;
-  margin-left: 7.31%;
-  margin-top: 19.06%; }
+  margin-left: 15.31%;
+  margin-top: 22.0%; }
 
 .p-2 {
   font-weight: 100;
   margin: 0px;
   font-size: 2.25rem;
-  margin-left: 7.18%;
+  margin-left: 15.18%;
   padding-top: 0.375%;
   margin-bottom: 1.25%; }
 
 .content-2-img {
-  width: 100%;
-  max-width: 100%;
-  height: 650px; }
+  width: 50%;
+  float: right; }
+
+.content-2-img img {
+  max-width: 100%; }
 
 .puntos2 {
-  margin-left: 6.75%;
+  margin-left: 15.75%;
   font-size: 4.5rem;
   color: #d6ae9f;
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 17%; }
 
 .puntos2 span {
   color: black; }
@@ -523,10 +529,10 @@ font-family:'Raleway', sans-serif;*/
   font-size: 1.25rem; }
 
 .parrafo-3 {
-  padding-bottom: 2.6%;
+  padding-bottom: 2.4%;
   border-top: 3px solid gray;
   border-bottom: 3px solid gray;
-  padding-left: 17.642%; }
+  padding-left: 12.642%; }
 
 .parrafo-3 p {
   margin: 0;
@@ -535,7 +541,7 @@ font-family:'Raleway', sans-serif;*/
 .parrafo-4 {
   padding-left: 17.642%;
   border-bottom: 3px solid gray;
-  padding-bottom: 3.85%; }
+  padding-bottom: 4%; }
 
 .parrafo-4 p {
   font-size: 1.25rem; }
@@ -779,8 +785,11 @@ input {
   padding-left: 4px; }
 
 @media (max-width: 1023px) {
-  .header-title {
-    padding-left: 118px; }
+  .background-gentleman p {
+    font-size: 3em; }
+  .ancords-footer {
+    padding-top: 20.42%;
+    padding-bottom: 19%; }
   .header-title h1 {
     font-size: 112px; }
   .header-quotes {
@@ -838,8 +847,6 @@ input {
   .button-4 {
     padding-bottom: 6.75%;
     padding-left: 360px; }
-  .background-gentleman p {
-    font-size: 4em; }
   .tres-images {
     margin-bottom: 4.071%; }
   .share {
@@ -904,7 +911,7 @@ input {
   .happy::after {
     left: 322px; }
   .title-footer h2::after {
-    left: 290px; }
+    left: 351px; }
   .second-button {
     padding-left: 35.14%; }
   .hands-p1 {
@@ -931,7 +938,7 @@ input {
     padding-bottom: 160px; }
   .button-4 {
     padding-bottom: 6.75%;
-    padding-left: 207px; }
+    padding-left: 253px; }
   .coffe {
     margin-bottom: 50px; }
   .lista1 {

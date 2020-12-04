@@ -1,6 +1,10 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family:'Raleway', sans-serif;
 font-family:'Raleway', sans-serif;*/
+
+/*font-family: 'Montserrat', sans-serif;
+font-family:'Raleway', sans-serif;
+font-family:'Raleway', sans-serif;*/
 .bear-background{
     position: relative;
 }
@@ -35,10 +39,11 @@ font-family:'Raleway', sans-serif;*/
 .header-title{
     color: white;
     font-family:'Raleway', sans-serif;
-    padding-left: 41%;
     padding-top: 15.25%;
     text-align: center;
     padding-right: 8.31%;
+    max-width: 735px;
+    margin-left: auto;
 }
 
 .header-title h1{
