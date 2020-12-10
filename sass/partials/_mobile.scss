@@ -8,8 +8,8 @@
     .first-paragraph p::after {
         content: "";
         position: absolute;
-        left: 306px;
-        top: 242px;
+        left: 318px;
+        top: 381px;
     }
 
     .button-4 {
@@ -126,28 +126,30 @@
     }
 
     .lista1{
-        float: none;
-        width: 100%;
+        float: left;
+        width: 50%;
         text-align: center;
     }
     .lista2{
+        float: left;
         margin: 0;
-        width: 100%;
-        text-align: center;
+        width: 50%;
+        text-align: center
     }
     .lista3{
         margin: 0;
-        width: 100%;
+        width: 51%;
         text-align: center;
+        float: left;
     }
     .lista4{
         margin: 0;
-        width: 100%;
+        width: 44%;
         text-align: center;
     }
 
     .footer-button {
-        margin-top: 7%;
+        margin-top: 18%;
         padding-bottom: 50px;
     }
 
@@ -156,6 +158,10 @@
     }
     
     .happy::after {
-        left: 277px;
+        left: 302px;
+    }
+
+    input{
+        padding: 18px 0 18px 18px;
     }
 }

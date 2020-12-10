@@ -509,7 +509,9 @@ font-family:'Raleway', sans-serif;*/
   position: relative; }
 
 .wrapper-peque h2 {
-  font-size: 3.75rem; }
+  padding-top: 75px;
+  font-size: 3.75rem;
+  margin-top: 0; }
 
 .wrapper-peque h3 {
   font-size: 1.875rem; }
@@ -595,7 +597,8 @@ font-family:'Raleway', sans-serif;*/
 .hands-p2 {
   color: white;
   font-size: 1.25rem;
-  padding-bottom: 10.375%; }
+  padding-bottom: 10.375%;
+  margin-bottom: 0; }
 
 .hands-p2 a {
   color: white;
@@ -611,7 +614,7 @@ font-family:'Raleway', sans-serif;*/
   content: "";
   position: absolute;
   left: 0;
-  top: 72px;
+  top: 149px;
   height: 3px;
   width: 4.5%;
   background-color: black; }
@@ -871,7 +874,7 @@ input {
   .background-gentleman p {
     font-size: 3em; }
   .ancords-footer {
-    padding-top: 20.42%;
+    padding-top: 26.42%;
     padding-bottom: 19%; }
   .header-title h1 {
     font-size: 112px; }
@@ -885,8 +888,8 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 487px;
-    top: 242px; }
+    left: 475px;
+    top: 388px; }
   .p-1 {
     font-size: 2.625rem;
     font-weight: normal;
@@ -914,8 +917,8 @@ input {
     text-align: center; }
   .happy::after {
     position: absolute;
-    left: 471px;
-    top: 92px; }
+    left: 458px;
+    top: 158px; }
   .parrafo-1 p {
     margin-bottom: 29px; }
   .parrafo-2 p {
@@ -924,7 +927,7 @@ input {
     padding-left: 40.14%; }
   .title-footer h2::after {
     left: 461px;
-    top: 88px; }
+    top: 154px; }
   .coffe p {
     padding-bottom: 141px; }
   .coffe {
@@ -941,14 +944,12 @@ input {
   .lista3 {
     margin-left: 7.28%; }
   .lista4 {
-    margin-left: 7.28%; }
+    margin-left: 5.28%; }
   .content-2-img {
     float: left; }
   .content-2-img img {
     max-width: 100%;
     width: 100%; }
-  .parrafo-3 {
-    padding-bottom: 2.8%; }
   .parrafo-4 {
     padding-bottom: 4.3%; }
   .column-1 {
@@ -970,7 +971,7 @@ input {
     border-bottom: 3px solid gray;
     border-right: 3px solid gray; }
   .parrafo-3 {
-    padding-bottom: 2.5%;
+    padding-bottom: 2.8%;
     border-top: 3px solid gray;
     border-bottom: 3px solid gray;
     padding-left: 12.642%; }
@@ -986,8 +987,8 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 306px;
-    top: 242px; }
+    left: 318px;
+    top: 381px; }
   .button-4 {
     padding-bottom: 6.75%;
     padding-left: 203px; }
@@ -1057,25 +1058,29 @@ input {
   .coffe {
     margin-bottom: 50px; }
   .lista1 {
-    float: none;
-    width: 100%;
+    float: left;
+    width: 50%;
     text-align: center; }
   .lista2 {
+    float: left;
     margin: 0;
-    width: 100%;
+    width: 50%;
     text-align: center; }
   .lista3 {
     margin: 0;
-    width: 100%;
-    text-align: center; }
+    width: 51%;
+    text-align: center;
+    float: left; }
   .lista4 {
     margin: 0;
-    width: 100%;
+    width: 44%;
     text-align: center; }
   .footer-button {
-    margin-top: 7%;
+    margin-top: 18%;
     padding-bottom: 50px; }
   .last-parrafo {
     font-size: 12px; }
   .happy::after {
-    left: 277px; } }
+    left: 302px; }
+  input {
+    padding: 18px 0 18px 18px; } }
