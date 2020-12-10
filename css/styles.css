@@ -407,6 +407,11 @@ font-family:'Raleway', sans-serif;*/
   font-size: 5.1875rem;
   margin: 0; }
 
+.more-reasons:hover {
+  border: none;
+  color: black;
+  border-bottom: 3px solid black; }
+
 .puntos {
   color: black;
   font-size: 9rem;
@@ -596,6 +601,9 @@ font-family:'Raleway', sans-serif;*/
   color: white;
   font-size: 1.25rem; }
 
+.Love-quotes:hover {
+  color: black; }
+
 .background-gray {
   background-color: #f3f4f5; }
 
@@ -613,6 +621,13 @@ font-family:'Raleway', sans-serif;*/
   margin-bottom: 6.42%;
   width: 43%; }
 
+.background-gentleman:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); }
+  .background-gentleman:hover .buy {
+    display: inline; }
+  .background-gentleman:hover .share {
+    display: inline; }
+
 .background-gentleman p {
   color: white;
   font-size: 5em;
@@ -620,6 +635,9 @@ font-family:'Raleway', sans-serif;*/
   text-align: center;
   padding-top: 24.42%;
   margin-bottom: 1.42%; }
+
+.background-gentleman a {
+  display: none; }
 
 .ancords-footer {
   padding-top: 20.42%;
@@ -662,6 +680,9 @@ font-family:'Raleway', sans-serif;*/
   float: left;
   width: 44%; }
 
+.mountain-men:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); }
+
 .coffe p {
   font-size: 1.875rem;
   font-weight: bold;
@@ -671,6 +692,12 @@ font-family:'Raleway', sans-serif;*/
 .golden {
   float: right;
   width: 44%; }
+
+.coffe:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); }
+
+.golden:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); }
 
 .golden-content {
   padding-top: 8.35%;
@@ -693,6 +720,11 @@ font-family:'Raleway', sans-serif;*/
 .button-4 {
   display: inline-block;
   padding-bottom: 10.75%; }
+
+.browse:hover {
+  border: none;
+  color: black;
+  border-bottom: 3px solid black; }
 
 .button-4 a {
   text-decoration: none;
@@ -750,6 +782,11 @@ font-family:'Raleway', sans-serif;*/
   border: 3px solid black;
   font-weight: bold;
   letter-spacing: 0.125rem; }
+
+.last-button:hover {
+  border: none;
+  color: black;
+  border-bottom: 3px solid black; }
 
 input {
   background-color: #f3f4f5;
@@ -943,11 +980,17 @@ input {
     padding-bottom: 3.9%; } }
 
 @media (max-width: 767px) {
-  body {
-    background-color: cornflowerblue; }
   .content-2-box {
     width: 100%;
     float: none; }
+  .first-paragraph p::after {
+    content: "";
+    position: absolute;
+    left: 306px;
+    top: 242px; }
+  .button-4 {
+    padding-bottom: 6.75%;
+    padding-left: 203px; }
   .p-1 {
     margin-top: 3.06%;
     margin-left: 22.31%;
@@ -986,7 +1029,7 @@ input {
   .happy::after {
     left: 322px; }
   .title-footer h2::after {
-    left: 351px; }
+    left: 304px; }
   .second-button {
     padding-left: 35.14%; }
   .hands-p1 {
@@ -1011,9 +1054,6 @@ input {
     padding-bottom: 44.28%; }
   .coffe p {
     padding-bottom: 160px; }
-  .button-4 {
-    padding-bottom: 6.75%;
-    padding-left: 253px; }
   .coffe {
     margin-bottom: 50px; }
   .lista1 {
@@ -1036,4 +1076,6 @@ input {
     margin-top: 7%;
     padding-bottom: 50px; }
   .last-parrafo {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .happy::after {
+    left: 277px; } }

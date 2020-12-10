@@ -1,13 +1,22 @@
 @media(max-width:767px){
-    body{
-        background-color: cornflowerblue;
-    }
 
     .content-2-box{
         width: 100%;
         float: none;
     }
 
+    .first-paragraph p::after {
+        content: "";
+        position: absolute;
+        left: 306px;
+        top: 242px;
+    }
+
+    .button-4 {
+        padding-bottom: 6.75%;
+        padding-left: 203px;
+    }
+    
     .p-1 {
         margin-top: 3.06%;
         margin-left: 22.31%;
@@ -65,7 +74,7 @@
     }
 
     .title-footer h2::after {
-        left: 351px;
+        left: 304px;
     }
 
     .second-button {
@@ -112,10 +121,6 @@
     .coffe p {
         padding-bottom: 160px;
     }
-    .button-4 {
-        padding-bottom: 6.75%;
-        padding-left: 253px;
-    }
     .coffe{
         margin-bottom: 50px;
     }
@@ -150,4 +155,7 @@
         font-size: 12px;
     }
     
+    .happy::after {
+        left: 277px;
+    }
 }

@@ -18,6 +18,16 @@
     width: 43%;
 }
 
+.background-gentleman:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    .buy{
+        display: inline;
+    }
+    .share{
+        display: inline;
+    }
+}
+
 .background-gentleman p{
     color: white;
     font-size: 5em;
@@ -25,6 +35,10 @@
     text-align: center;
     padding-top: 24.42%;
     margin-bottom: 1.42%;
+}
+
+.background-gentleman a{
+    display: none;
 }
 
 .ancords-footer{
@@ -74,6 +88,10 @@
     width: 44%;
 }
 
+.mountain-men:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
 .coffe p{
     font-size: 1.875rem;
     font-weight: bold;
@@ -84,6 +102,13 @@
 .golden{
     float: right;
     width: 44%;
+}
+
+.coffe:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.golden:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .golden-content{
@@ -110,6 +135,12 @@
 .button-4{
     display: inline-block;
     padding-bottom: 10.75%;
+}
+
+.browse:hover{
+    border: none;
+    color: black;
+    border-bottom: 3px solid black;
 }
 
 .button-4 a{
@@ -179,6 +210,12 @@
     border: 3px solid black;
     font-weight: bold;
     letter-spacing: 0.125rem;
+}
+
+.last-button:hover{
+    border: none;
+    color: black;
+    border-bottom: 3px solid black;
 }
 
 input{
