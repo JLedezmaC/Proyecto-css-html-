@@ -509,12 +509,14 @@ font-family:'Raleway', sans-serif;*/
   position: relative; }
 
 .wrapper-peque h2 {
-  padding-top: 75px;
   font-size: 3.75rem;
   margin-top: 0; }
 
 .wrapper-peque h3 {
   font-size: 1.875rem; }
+
+.second-h2 {
+  padding-top: 0; }
 
 .first-p {
   margin-bottom: 2.85rem; }
@@ -614,7 +616,7 @@ font-family:'Raleway', sans-serif;*/
   content: "";
   position: absolute;
   left: 0;
-  top: 149px;
+  top: 61px;
   height: 3px;
   width: 4.5%;
   background-color: black; }
@@ -868,7 +870,16 @@ input {
     border: none; }
   .second-button {
     display: inline-block;
-    padding-left: 43.14%; } }
+    padding-left: 43.14%; }
+  .first-paragraph p::after {
+    content: "";
+    position: absolute;
+    left: 633px;
+    height: 0.142%;
+    width: 4.5%;
+    background-color: black; }
+  .lista4 {
+    margin-left: 10.28%; } }
 
 @media (max-width: 1023px) {
   .background-gentleman p {
@@ -888,8 +899,7 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 475px;
-    top: 388px; }
+    left: 458px; }
   .p-1 {
     font-size: 2.625rem;
     font-weight: normal;
@@ -917,8 +927,8 @@ input {
     text-align: center; }
   .happy::after {
     position: absolute;
-    left: 458px;
-    top: 158px; }
+    left: 450px;
+    top: 89px; }
   .parrafo-1 p {
     margin-bottom: 29px; }
   .parrafo-2 p {
@@ -926,8 +936,8 @@ input {
   .second-button {
     padding-left: 40.14%; }
   .title-footer h2::after {
-    left: 461px;
-    top: 154px; }
+    left: 448px;
+    top: 88px; }
   .coffe p {
     padding-bottom: 141px; }
   .coffe {
@@ -987,11 +997,10 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 318px;
-    top: 381px; }
+    left: 364px; }
   .button-4 {
     padding-bottom: 6.75%;
-    padding-left: 203px; }
+    padding-left: 257px; }
   .p-1 {
     margin-top: 3.06%;
     margin-left: 22.31%;
@@ -1028,9 +1037,9 @@ input {
     padding-left: 0;
     border: none; }
   .happy::after {
-    left: 322px; }
+    left: 342px; }
   .title-footer h2::after {
-    left: 304px; }
+    left: 364px; }
   .second-button {
     padding-left: 35.14%; }
   .hands-p1 {
@@ -1052,9 +1061,9 @@ input {
     float: none;
     width: 100%; }
   .golden-content {
-    padding-bottom: 44.28%; }
+    padding-bottom: 46.28%; }
   .coffe p {
-    padding-bottom: 160px; }
+    padding-bottom: 194px; }
   .coffe {
     margin-bottom: 50px; }
   .lista1 {
@@ -1080,7 +1089,5 @@ input {
     padding-bottom: 50px; }
   .last-parrafo {
     font-size: 12px; }
-  .happy::after {
-    left: 302px; }
   input {
     padding: 18px 0 18px 18px; } }

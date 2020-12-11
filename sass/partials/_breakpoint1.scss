@@ -69,4 +69,16 @@
         padding-left: 43.14%;
     }
     
+    .first-paragraph p::after {
+        content: "";
+        position: absolute;
+        left: 633px;
+        height: 0.142%;
+        width: 4.5%;
+        background-color: black;
+    }
+
+    .lista4 {
+        margin-left: 10.28%;
+    }
 }
