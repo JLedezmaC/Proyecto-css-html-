@@ -8,7 +8,8 @@
     .first-paragraph p::after {
         content: "";
         position: absolute;
-        left: 364px;
+        left: 48.43%;
+        top: 45.5%;
     }
 
     .button-4 {
@@ -69,11 +70,13 @@
         border: none;
     }
     .happy::after {
-        left: 342px
+        top: 8.21%;
+        left: 46.71%;
     }
 
     .title-footer h2::after {
-        left: 364px;
+        top: 4%;
+        left: 46.75%;
     }
 
     .second-button {

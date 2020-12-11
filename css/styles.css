@@ -455,8 +455,8 @@ font-family:'Raleway', sans-serif;*/
 .first-paragraph p::after {
   content: "";
   position: absolute;
-  left: 668px;
-  top: 242px;
+  left: 47.85%;
+  top: 57.125%;
   height: 0.142%;
   width: 4.5%;
   background-color: black; }
@@ -559,7 +559,7 @@ font-family:'Raleway', sans-serif;*/
   content: "";
   position: absolute;
   left: 0;
-  top: 72px;
+  top: 11.5%;
   height: 2px;
   width: 4.5rem;
   background-color: black; }
@@ -616,7 +616,7 @@ font-family:'Raleway', sans-serif;*/
   content: "";
   position: absolute;
   left: 0;
-  top: 61px;
+  top: 6.35%;
   height: 3px;
   width: 4.5%;
   background-color: black; }
@@ -874,7 +874,7 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 633px;
+    left: 48.35%;
     height: 0.142%;
     width: 4.5%;
     background-color: black; }
@@ -888,7 +888,7 @@ input {
     padding-top: 26.42%;
     padding-bottom: 19%; }
   .header-title h1 {
-    font-size: 112px; }
+    font-size: 125px; }
   .header-quotes {
     padding-top: 93px;
     margin-left: 26px; }
@@ -899,7 +899,7 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 458px; }
+    left: 48.71%; }
   .p-1 {
     font-size: 2.625rem;
     font-weight: normal;
@@ -927,8 +927,8 @@ input {
     text-align: center; }
   .happy::after {
     position: absolute;
-    left: 450px;
-    top: 89px; }
+    left: 48.14%;
+    top: 12.35%; }
   .parrafo-1 p {
     margin-bottom: 29px; }
   .parrafo-2 p {
@@ -936,8 +936,8 @@ input {
   .second-button {
     padding-left: 40.14%; }
   .title-footer h2::after {
-    left: 448px;
-    top: 88px; }
+    left: 46%;
+    top: 9.5%; }
   .coffe p {
     padding-bottom: 141px; }
   .coffe {
@@ -997,7 +997,8 @@ input {
   .first-paragraph p::after {
     content: "";
     position: absolute;
-    left: 364px; }
+    left: 48.43%;
+    top: 45.5%; }
   .button-4 {
     padding-bottom: 6.75%;
     padding-left: 257px; }
@@ -1037,9 +1038,11 @@ input {
     padding-left: 0;
     border: none; }
   .happy::after {
-    left: 342px; }
+    top: 8.21%;
+    left: 46.71%; }
   .title-footer h2::after {
-    left: 364px; }
+    top: 4%;
+    left: 46.75%; }
   .second-button {
     padding-left: 35.14%; }
   .hands-p1 {
